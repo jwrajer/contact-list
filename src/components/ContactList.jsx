@@ -3,7 +3,6 @@ import ContactRow from './ContactRow';
 
 const ContactList = ({ setSelectedContactId }) => {
   const [contacts, setContacts] = useState([]);
-  console.log(contacts);
 
   useEffect(() => {
     const fetchContacts = async() => {
